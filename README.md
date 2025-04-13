@@ -1,14 +1,10 @@
 # Hybrid Search RAG with Pinecone and LangChain
 
-<div align="center">
-<<<<<<< HEAD
+<div style="display: flex; justify-content: center; align-items: center; gap: 40px; background-color: white; padding: 20px;">
   <img src="assets/pinecone-seeklogo.png" alt="Pinecone Logo" width="200"/>
   <img src="assets/langchain-seeklogo.png" alt="LangChain Logo" width="200"/>
-=======
-  <img src="https://seeklogo.com/images/P/pinecone-logo-482364.svg" alt="Pinecone Logo" width="200"/>
-  <img src="https://seeklogo.com/images/L/langchain-logo-611655.svg" alt="LangChain Logo" width="200"/>
->>>>>>> fb57756f7bd5dbac78d45f7aa1b444594b350f1f
 </div>
+
 
 ## 🚀 Overview
 
