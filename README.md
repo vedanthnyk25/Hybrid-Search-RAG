@@ -1,8 +1,8 @@
 # Hybrid Search RAG with Pinecone and LangChain
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/pinecone-io/pinecone-python-client/main/docs/images/pinecone-logo.svg" alt="Pinecone Logo" width="200"/>
-  <img src="https://raw.githubusercontent.com/langchain-ai/langchain/master/docs/extras/guides/deployments/langgraph/langgraph_logo.png" alt="LangChain Logo" width="200"/>
+  <img src="assets/pinecone-seeklogo.png" alt="Pinecone Logo" width="200"/>
+  <img src="assets/langchain-seeklogo.png" alt="LangChain Logo" width="200"/>
 </div>
 
 ## 🚀 Overview
