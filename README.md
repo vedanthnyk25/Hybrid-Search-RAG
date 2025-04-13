@@ -1,8 +1,13 @@
 # Hybrid Search RAG with Pinecone and LangChain
 
 <div align="center">
+<<<<<<< HEAD
   <img src="assets/pinecone-seeklogo.png" alt="Pinecone Logo" width="200"/>
   <img src="assets/langchain-seeklogo.png" alt="LangChain Logo" width="200"/>
+=======
+  <img src="https://seeklogo.com/images/P/pinecone-logo-482364.svg" alt="Pinecone Logo" width="200"/>
+  <img src="https://seeklogo.com/images/L/langchain-logo-611655.svg" alt="LangChain Logo" width="200"/>
+>>>>>>> fb57756f7bd5dbac78d45f7aa1b444594b350f1f
 </div>
 
 ## 🚀 Overview
@@ -83,41 +88,7 @@ The system uses Reciprocal Rank Fusion to intelligently combine the results from
    ```
    PINECONE_API_KEY=your_pinecone_api_key
    ```
-
-## 📚 Usage
-
-### Basic Usage
-
-```python
-from langchain_community.retrievers import PineconeHybridSearchRetriever
-from langchain_huggingface import HuggingFaceEmbeddings
-from pinecone_text.sparse import BM25Encoder
-from pinecone import Pinecone
-
-# Initialize Pinecone
-pc = Pinecone(api_key="your_api_key")
-index = pc.Index("your_index_name")
-
-# Set up embeddings
-embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
-
-# Initialize BM25 encoder
-bm25_encoder = BM25Encoder().default()
-
-# Create hybrid retriever
-retriever = PineconeHybridSearchRetriever(
-    embeddings=embeddings, 
-    sparse_encoder=bm25_encoder, 
-    index=index
-)
-
-# Add documents to the index
-retriever.add_texts(["Your document text here", "Another document"])
-
-# Perform a hybrid search
-results = retriever.invoke("Your search query here")
-```
-
+   
 ### Advanced Configuration
 
 You can customize the hybrid search behavior by adjusting parameters:
