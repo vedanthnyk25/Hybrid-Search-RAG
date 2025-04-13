@@ -1,0 +1,9 @@
+langchain
+pinecone
+pinecone-text
+pinecone-notebooks
+ipykernel
+dotenv
+langchain_community
+langchain_huggingface
+pypdf
